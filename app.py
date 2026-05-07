@@ -92,7 +92,7 @@ else:
         st.write("## To my mother,")
         col_msg_left, col_msg_right = st.columns([1, 1.5])
         with col_msg_left:
-            st.image("mom1.png", use_container_width=True) # First photo here
+            st.image("mom1.jpg", use_container_width=True) # First photo here
         with col_msg_right:
             st.markdown(f"""
             ### Happy Mother's Day!
@@ -111,12 +111,12 @@ else:
         col1, col2 = st.columns(2)
         
         with col1:
-            st.image("mom2.png", caption="Mom & Daughter", use_container_width=True)
-            st.image("mom4.png", caption="Celebrations", use_container_width=True)
+            st.image("mom2.jpg", caption="Mom & Daughter", use_container_width=True)
+            st.image("mom4.jpg", caption="Celebrations", use_container_width=True)
         
         with col2:
-            st.image("mom3.png", caption="Special Moments", use_container_width=True)
-            st.image("mom5.png", caption="Always Smiling", use_container_width=True)
+            st.image("mom3.jpg", caption="Special Moments", use_container_width=True)
+            st.image("mom5.jpg", caption="Always Smiling", use_container_width=True)
 
     st.markdown("---")
     st.write("✨ *Built with love by your favorite coder* ✨")
